@@ -31,10 +31,3 @@ if (isset($_POST['submit'])) {
     echo "<br /><br /><a href='index.html'>Вернуться на сайт.</a>";
 }
 ?>
-<!--Переадресация на главную страницу сайта, через 3 секунды-->
-<script language="JavaScript" type="text/javascript">
-    function changeurl() {
-        eval(self.location = "http://littleprince.fun/");
-    }
-    window.setTimeout("changeurl();", 6000);
-</script>
